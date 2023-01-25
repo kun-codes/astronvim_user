@@ -26,6 +26,7 @@ return {
     --  ╰──────────────────────────────────────────────────────────╯
     ["<leader>pr"] = { "<cmd>AstroReload<cr>", desc = "AstroNvim Reload" },
     ["<leader>pm"] = { "<cmd>Mason<cr>", desc = "Open Mason" },
+    ["<leader>pe"] = { "<cmd>e ~/.config/nvim/lua/user/<cr>", desc = "Edit config" },
 
     --  ╭──────────────────────────────────────────────────────────╮
     --  │           mappings seen under group name "LSP"           │
