@@ -4,6 +4,4 @@ return {
     "null-ls",
     "*",
   },
-  -- require("telescope").load_extension "projects",
-  -- silent_chdir = false,
 }
