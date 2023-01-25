@@ -4,6 +4,7 @@ local luasnip = require "luasnip"
 return {
   mapping = {
 
+    -- so that tabout plugin can work
     ["<Tab>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_next_item()
