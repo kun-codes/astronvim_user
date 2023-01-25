@@ -35,6 +35,9 @@ return {
     ["<leader>lC"] = { "<cmd>TodoTelescope<cr>", desc = "Todo Telescope" },
     ["<leader>ll"] = { "<cmd>lua require('lsp_lines').toggle<cr>", desc = "Toggle lsp_lines" },
 
+    -- ╭──────────────────────────────────────────────────────────────────────────────╮
+    -- │                    mappings seen under group name "File"                     │
+    -- ╰──────────────────────────────────────────────────────────────────────────────╯
     ["<leader>fp"] = { "<cmd>Telescope projects<cr>", desc = "Search projects" },
 
     -- quick save
