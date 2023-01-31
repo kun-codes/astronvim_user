@@ -38,7 +38,9 @@ return {
     -- activated in "user.plugins.telescope"
   },
 
-  -- runs individual code files
+  -- ╭──────────────────────────────────────────────────────────────────────────────╮
+  -- │                          runs individual code files                          │
+  -- ╰──────────────────────────────────────────────────────────────────────────────╯
   ["CRAG666/code_runner.nvim"] = {
     requires = { "nvim-lua/plenary.nvim" },
     -- after = { "toggleterm.nvim" },
