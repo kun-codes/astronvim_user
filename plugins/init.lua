@@ -101,6 +101,10 @@ return {
     event = "BufRead",
     ft = { "qml" },
   },
+  -- default plugin is used again because codeium and nui don't load lazy together
+  ["MunifTanjim/nui.nvim"] = {
+    module = "nui",
+  },
   --  ╭──────────────────────────────────────────────────────────────────────────────╮
   --  │                            additional cmp sources                            │
   --  ╰──────────────────────────────────────────────────────────────────────────────╯
@@ -113,8 +117,9 @@ return {
     },
     after = "nvim-cmp",
 
-    config = function() require("codeium").setup() end,
-
-    require "user.plugins.codeium",
+    config = function()
+      require("codeium").setup()
+      require "user.plugins.codeium"
+    end,
   },
 }
