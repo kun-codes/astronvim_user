@@ -19,3 +19,4 @@
 - LudoPinelli/comment-box.nvim
 - jghauser/mkdir.nvim
 - peterhoeg/vim-qml
+- jcdickinson/codeium.nvim
