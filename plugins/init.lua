@@ -112,6 +112,7 @@ return {
       "hrsh7th/nvim-cmp",
     },
     after = "nvim-cmp",
+
     config = function() require("codeium").setup() end,
 
     require "user.plugins.codeium",

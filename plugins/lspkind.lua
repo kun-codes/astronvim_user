@@ -12,5 +12,6 @@ return {
                 Object = "",
                 Package = "",
                 String = "",
+                Suggestion = "󰘦",
         },
 }
