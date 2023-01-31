@@ -21,3 +21,23 @@
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim)
 - [peterhoeg/vim-qml](https://github.com/peterhoeg/vim-qml)
 - [jcdickinson/codeium.nvim](https://github.com/jcdickinson/codeium.nvim)
+
+# Installation
+
+- Install AstroNvim
+
+```sh
+git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
+```
+
+- Install these user settings
+
+```sh
+git clone https://github.com/throwaway69420-69420/astronvim_user ~/.config/nvim/lua/user
+```
+
+- Initialize AstroVim
+
+```sh
+nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+```
