@@ -2,21 +2,22 @@
 
 ## Themes
 
-- yashguptaz/calvera-dark.nvim
-- folke/tokyonight.nvim
-- marko-cerovac/material.nvim
-- Shatur/neovim-ayu
+- [yashguptaz/calvera-dark.nvim](https://github.com/yashguptaz/calvera-dark.nvim)
+- [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim))
+- [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim)
+- [Shatur/neovim-ayu](https://github.com/Shatur/neovim-ayu)
+- [michael-kuhn/neovim-dark](https://github.com/michael-kuhn/neovim-dark)
 
 ## Plugins
 
-- ahmedkhalf/project.nvim
-- CRAG666/code_runner.nvim
-- anuvyklack/pretty-fold.nvim
-- folke/todo-comments.nvim
-- haringsrob/nvim_context_vt
-- folke/zen-mode.nvim
-- folke/trouble.nvim
-- LudoPinelli/comment-box.nvim
-- jghauser/mkdir.nvim
-- peterhoeg/vim-qml
-- jcdickinson/codeium.nvim
+- [ahmedkhalf/project.nvim](https://github.com/ahmedkhalf/project.nvim))
+- [CRAG666/code_runner.nvim](https://github.com/CRAG666/code_runner.nvim))
+- [anuvyklack/pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim)
+- [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
+- [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt)
+- [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim)
+- [folke/trouble.nvim](https://github.com/folke/trouble.nvim)
+- [LudoPinelli/comment-box.nvim](https://github.com/LudoPinelli/comment-box.nvim)
+- [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim)
+- [peterhoeg/vim-qml](https://github.com/peterhoeg/vim-qml)
+- [jcdickinson/codeium.nvim](https://github.com/jcdickinson/codeium.nvim)
