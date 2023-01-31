@@ -99,4 +99,19 @@ return {
     event = "BufRead",
     ft = { "qml" },
   },
+  --  ╭──────────────────────────────────────────────────────────────────────────────╮
+  --  │                            additional cmp sources                            │
+  --  ╰──────────────────────────────────────────────────────────────────────────────╯
+  ["jcdickinson/codeium.nvim"] = {
+
+    requires = {
+      "nvim-lua/plenary.nvim",
+      "MunifTanjim/nui.nvim",
+      "hrsh7th/nvim-cmp",
+    },
+    after = "nvim-cmp",
+    config = function() require("codeium").setup() end,
+
+    require "user.plugins.codeium",
+  },
 }
