@@ -18,6 +18,9 @@ return {
   ["marko-cerovac/material.nvim"] = {},
   ["Shatur/neovim-ayu"] = {},
   ["nyoom-engineering/oxocarbon.nvim"] = {},
+  ["catppuccin/nvim"] = {
+    require("catppuccin").setup(require "user.plugins.catppuccin"),
+  },
   --  ╭───────────────╮
   --  │  themes end   │
   --  ╰───────────────╯
