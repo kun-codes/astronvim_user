@@ -27,6 +27,7 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 - [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim)
 - [Shatur/neovim-ayu](https://github.com/Shatur/neovim-ayu)
 - [michael-kuhn/neovim-dark](https://github.com/michael-kuhn/neovim-dark)
+- [catppuccin/nvim](https://github.com/catppuccin/nvim)
 
 ## Plugins
 
