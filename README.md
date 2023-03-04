@@ -9,7 +9,7 @@ git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
 - Install these user settings
 
 ```sh
-git clone https://github.com/throwaway69420-69420/astronvim_user ~/.config/nvim/lua/user
+git clone git@github.com:throwaway69420-69420/astronvim_user.git ~/.config/nvim/lua/user
 ```
 
 - Initialize AstroNvim
