@@ -12,10 +12,10 @@ git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
 git clone https://github.com/throwaway69420-69420/astronvim_user ~/.config/nvim/lua/user
 ```
 
-- Initialize AstroVim
+- Initialize AstroNvim
 
 ```sh
-nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim  --headless -c 'autocmd User LazyDone quitall'
 ```
 
 # Custom plugins used:
