@@ -26,8 +26,8 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 - [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 - [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim)
 - [Shatur/neovim-ayu](https://github.com/Shatur/neovim-ayu)
-- [michael-kuhn/neovim-dark](https://github.com/michael-kuhn/neovim-dark)
 - [catppuccin/nvim](https://github.com/catppuccin/nvim)
+- [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next)
 
 ## Plugins
 
@@ -40,5 +40,6 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 - [folke/trouble.nvim](https://github.com/folke/trouble.nvim)
 - [LudoPinelli/comment-box.nvim](https://github.com/LudoPinelli/comment-box.nvim)
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim)
-- [peterhoeg/vim-qml](https://github.com/peterhoeg/vim-qml)
 - [jcdickinson/codeium.nvim](https://github.com/jcdickinson/codeium.nvim)
+- [AckslD/nvim-neoclip.lua](https://github.com/AckslD/nvim-neoclip.lua)
+

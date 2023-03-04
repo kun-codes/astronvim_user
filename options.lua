@@ -14,6 +14,7 @@ return {
     shell = "/usr/bin/fish",
     background = "dark",
     breakindent = true,
+    clipboard = "",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader

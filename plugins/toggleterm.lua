@@ -1,3 +1,6 @@
 return {
-  autochdir = true,
+  "akinsho/toggleterm.nvim",
+  opts = {
+    autochdir = true,
+  },
 }
