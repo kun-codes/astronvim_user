@@ -33,7 +33,6 @@ nvim  --headless -c 'autocmd User LazyDone quitall'
 
 - [ahmedkhalf/project.nvim](https://github.com/ahmedkhalf/project.nvim)
 - [CRAG666/code_runner.nvim](https://github.com/CRAG666/code_runner.nvim)
-- [anuvyklack/pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim)
 - [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
 - [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt)
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim)
