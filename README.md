@@ -15,7 +15,7 @@ git clone git@github.com:throwaway69420-69420/astronvim_user.git ~/.config/nvim/
 - Initialize AstroNvim
 
 ```sh
-nvim  --headless -c 'autocmd User LazyDone quitall'
+nvim  --headless -c 'quitall'
 ```
 
 # Custom plugins used:
