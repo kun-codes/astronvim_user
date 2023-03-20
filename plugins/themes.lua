@@ -30,4 +30,10 @@ return {
     },
   },
   "mhartington/oceanic-next",
+  "Mofiqul/vscode.nvim",
+  "martinsione/darkplus.nvim",
+  {
+    "ramojus/mellifluous.nvim",
+    dependencies = { "rktjmp/lush.nvim" },
+  },
 }
