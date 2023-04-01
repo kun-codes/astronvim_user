@@ -1,6 +1,7 @@
 -- return "calvera"
 -- return "material"
-return "tokyonight-night"
+-- return "tokyonight-night"
+return "nord"
 -- return "abscs"
 -- return "mellifluous"
 -- return "darkplus"
