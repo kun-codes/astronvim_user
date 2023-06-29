@@ -37,4 +37,12 @@ return {
     dependencies = { "rktjmp/lush.nvim" },
   },
   "gbprod/nord.nvim",
+  -- Using lazy.nvim
+  {
+    "ribru17/bamboo.nvim",
+    -- lazy = false,
+    -- priority = 1000,
+  },
+  { "Everblush/nvim",           name = "everblush" },
+  { "shaunsingh/moonlight.nvim" },
 }
