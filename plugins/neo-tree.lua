@@ -11,7 +11,9 @@ return {
     buffers = {
       follow_current_file = true,
     },
-    window = { -- see https://github.com/MunifTanjim/nui.nvim/tree/main/lua/nui/popup for
+    window = {
+      -- see https://github.com/MunifTanjim/nui.nvim/tree/main/lua/nui/popup for
+      -- position = "right",
       mappings = {
         ["z"] = "",
         ["H"] = "prev_source",
