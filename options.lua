@@ -15,6 +15,9 @@ return {
     background = "dark",
     breakindent = true,
     clipboard = "",
+    winblend = 20,
+    pumblend = 20,
+    mouse = "",
   },
   g = {
     mapleader = " ",                   -- sets vim.g.mapleader
@@ -29,5 +32,6 @@ return {
     material_style = "deep ocean",
     neovide_cursor_vfx_mode = "railgun",
     neovide_cursor_vfx_particle_lifetime = 2,
+    neovide_hide_mouse_when_typing = true,
   },
 }
