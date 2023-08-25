@@ -28,10 +28,10 @@ return {
       },
       sources = cmp.config.sources {
         { name = "nvim_lsp", priority = 1000 },
-        { name = "luasnip",  priority = 750 },
-        { name = "buffer",   priority = 500 },
-        { name = "path",     priority = 250 },
-        { name = "codeium",  priority = 700 }, -- add new source
+        { name = "luasnip", priority = 750 },
+        { name = "buffer", priority = 500 },
+        { name = "path", priority = 250 },
+        { name = "codeium", priority = 700 }, -- add new source
       },
       mapping = {
         -- so that tabout plugin can work
@@ -50,8 +50,8 @@ return {
         ["<S-Tab>"] = cmp.mapping(function(fallback)
           if cmp.visible() then
             cmp.select_prev_item()
-          elseif luasnip.jumpable( -1) then
-            luasnip.jump( -1)
+          elseif luasnip.jumpable(-1) then
+            luasnip.jump(-1)
           else
             fallback()
           end
@@ -63,7 +63,7 @@ return {
       formatting = {
         fields = { "kind", "abbr", "menu" },
         format = function(entry, vim_item)
-          local kind = require("lspkind").cmp_format { mode = "symbol_text", maxwidth = 50 } (entry, vim_item)
+          local kind = require("lspkind").cmp_format { mode = "symbol_text", maxwidth = 50 }(entry, vim_item)
           local strings = vim.split(kind.kind, "%s", { trimempty = true })
           kind.kind = " " .. (strings[1] or "") .. " "
           kind.menu = "    (" .. (strings[2] or "") .. ")"
