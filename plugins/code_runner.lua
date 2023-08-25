@@ -7,11 +7,9 @@ return {
     float = {
       -- Window border (see ':h nvim_open_win')
       border = "double",
-
       -- Highlight group for floating window/border (see ':h winhl')
       border_hl = "FloatBorder",
       float_hl = "Normal",
-
       -- Transparency (see ':h winblend')
       blend = 0,
     },
