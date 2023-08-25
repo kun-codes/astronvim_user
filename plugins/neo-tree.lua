@@ -16,9 +16,6 @@ return {
       -- position = "right",
       mappings = {
         ["z"] = "",
-        ["H"] = "prev_source",
-        ["L"] = "next_source",
-        -- ["h"] = "toggle_hidden",
         ["l"] = "open",
       },
       -- position = "right",
