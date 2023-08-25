@@ -52,6 +52,6 @@ nvim  --headless -c 'quitall'
 - [jcdickinson/codeium.nvim](https://github.com/jcdickinson/codeium.nvim)
 - [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim)
 - [LudoPinelli/comment-box.nvim](https://github.com/LudoPinelli/comment-box.nvim)
-- [willothy/flatten.nvim](htpps://github.com/willothy/flatten.nvim)
+- [willothy/flatten.nvim](https://github.com/willothy/flatten.nvim)
 
 
