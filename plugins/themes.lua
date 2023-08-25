@@ -43,6 +43,11 @@ return {
     -- lazy = false,
     -- priority = 1000,
   },
-  { "Everblush/nvim",           name = "everblush" },
+  { "Everblush/nvim", name = "everblush" },
   { "shaunsingh/moonlight.nvim" },
+  { "yonlu/omni.vim" },
+  { "Everblush/nvim", name = "everblush" },
+  { "dasupradyumna/midnight.nvim" },
+  { "navarasu/onedark.nvim" },
+  -- { "shaunsingh/nord.nvim" },
 }
