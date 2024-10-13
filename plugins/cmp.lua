@@ -1,7 +1,7 @@
 return {
   "hrsh7th/nvim-cmp",
   dependencies = {
-    "jcdickinson/codeium.nvim", -- add cmp source as dependency of cmp
+    "mcha-forks/codeium.nvim", -- add cmp source as dependency of cmp
     dependencies = {
       "nvim-lua/plenary.nvim",
       "MunifTanjim/nui.nvim",

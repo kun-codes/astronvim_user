@@ -65,6 +65,7 @@ return {
       FortranFreeForm = "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir/$fileNameWithoutExt",
       fortran = "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir/$fileNameWithoutExt",
       sml = "cd $dir && sml $fileName",
+      vala = "cd $dir && valac $fileName && $dir/$fileNameWithoutExt",
     },
   },
 }

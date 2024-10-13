@@ -11,6 +11,8 @@ return {
   },
   "marko-cerovac/material.nvim",
   "Shatur/neovim-ayu",
+  "rebelot/kanagawa.nvim",
+  "nyoom-engineering/oxocarbon.nvim",
   {
     "catppuccin/nvim",
     opts = {
@@ -49,5 +51,18 @@ return {
   { "Everblush/nvim", name = "everblush" },
   { "dasupradyumna/midnight.nvim" },
   { "navarasu/onedark.nvim" },
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = true,
+    config = function()
+      require("cyberdream").setup {
+        -- Recommended - see "Configuring" below for more config options
+        transparent = true,
+        italic_comments = true,
+        hide_fillchars = true,
+        borderless_telescope = true,
+      }
+    end,
+  },
   -- { "shaunsingh/nord.nvim" },
 }
