@@ -126,18 +126,18 @@ return {
         -- ╰──────────────────────────────────────────────────────────────────────────────╯
         ["<leader>fp"] = { "<cmd>Telescope projects<cr>", desc = "Search projects" },
         L = {
-          function() require("astronvim.utils.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end,
+          function() require("astrocore.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end,
           desc = "Next buffer",
         },
         H = {
-          function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
+          function() require("astrocore.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
           desc = "Previous buffer",
         },
         ["<leader>c"] = {
           function()
             local bufs = vim.fn.getbufinfo { buflisted = true }
-            require("astronvim.utils.buffer").close(0)
-            if require("astronvim.utils").is_available "alpha-nvim" and not bufs[2] then
+            require("astrocore.buffer").close(0)
+            if require("astrocore").is_available "alpha-nvim" and not bufs[2] then
               require("alpha").start(true)
             end
           end,
