@@ -1,14 +1,18 @@
-return {
-  -- -- https://github.com/nvim-telescope/telescope.nvim/issues/699#issuecomment-1159637962
-  -- -- so that folding works when a file is opened from telescope plugin
-  -- vim.api.nvim_create_autocmd({ "BufEnter" }, {
-  --   pattern = { "*" },
-  --   command = "normal zx",
-  -- }),
-  --
-  -- -- does the same as the above autocommand but after saving the file
-  -- vim.api.nvim_create_autocmd({ "bufwritepost" }, {
-  --   pattern = { "*" },
-  --   command = "normal zx",
-  -- }),
+if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
+-- This will run last in the setup process and is a good place to configure
+-- things like custom filetypes. This just pure lua so anything that doesn't
+-- fit in the normal config locations above can go here
+
+-- Set up custom filetypes
+vim.filetype.add {
+  extension = {
+    foo = "fooscript",
+  },
+  filename = {
+    ["Foofile"] = "fooscript",
+  },
+  pattern = {
+    ["~/%.config/foo/.*"] = "fooscript",
+  },
 }

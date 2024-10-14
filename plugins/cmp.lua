@@ -1,3 +1,4 @@
+---@type LazySpec
 return {
   "hrsh7th/nvim-cmp",
   dependencies = {
@@ -12,7 +13,7 @@ return {
   opts = function(_, opts)
     local cmp = require "cmp"
     local luasnip = require "luasnip"
-    return require("astronvim.utils").extend_tbl(opts, {
+    return require("astrocore").extend_tbl(opts, {
       -- return astronvim.extend_tbl(opts, {
       window = {
         completion = {

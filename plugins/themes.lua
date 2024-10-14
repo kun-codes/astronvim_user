@@ -1,3 +1,4 @@
+---@type LazySpec
 return {
 
   "yashguptaz/calvera-dark.nvim",
@@ -15,6 +16,7 @@ return {
   "nyoom-engineering/oxocarbon.nvim",
   {
     "catppuccin/nvim",
+    name = "catppuccin",
     opts = {
       integrations = {
         nvimtree = false,
@@ -48,7 +50,7 @@ return {
   { "Everblush/nvim", name = "everblush" },
   { "shaunsingh/moonlight.nvim" },
   { "yonlu/omni.vim" },
-  { "Everblush/nvim", name = "everblush" },
+  -- { "Everblush/nvim", name = "everblush" },
   { "dasupradyumna/midnight.nvim" },
   { "navarasu/onedark.nvim" },
   {

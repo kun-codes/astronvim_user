@@ -1,3 +1,4 @@
+---@type LazySpec
 return {
   "nvim-neo-tree/neo-tree.nvim",
   -- opts = function(_, opts) -- override the options using lazy.nvim
